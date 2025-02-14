@@ -29,7 +29,7 @@ services:
     tty: true
     shm_size: '16gb'
     stdin_open: true
-    command: bash  #在启动容器时执行脚本
+    command: ['/bin/bash', '/app/start_llamafactory.sh']  #在启动容器时执行脚本,注意路径
     deploy:
       resources:
         reservations:
