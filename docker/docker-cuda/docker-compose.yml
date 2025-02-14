@@ -19,6 +19,9 @@ services:
       - ../../om_cache:/root/.cache/openmind
       - ../../data:/app/data
       - ../../output:/app/output
+      - /DATA/LLM/gaojiale/llm_project/llama_factory/model/:/app/model
+      - /DATA/LLM/gaojiale/llm_project/llama_factory/LLaMA-Factory/examples:/app/examples
+      - /DATA/LLM/gaojiale/llm_project/llama_factory/LLaMA-Factory/docker/docker-cuda/start_llamafactory.sh:/app/start_llamafactory.sh
     ports:
       - "7860:7860"
       - "8000:8000"
@@ -26,7 +29,7 @@ services:
     tty: true
     shm_size: '16gb'
     stdin_open: true
-    command: bash
+    command: bash  #在启动容器时执行脚本
     deploy:
       resources:
         reservations:
