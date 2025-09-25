@@ -4,13 +4,13 @@ services:
       dockerfile: ./docker/docker-cuda/Dockerfile
       context: ../..
       args:
-        INSTALL_BNB: "false"
-        INSTALL_VLLM: "false"
-        INSTALL_DEEPSPEED: "false"
-        INSTALL_FLASHATTN: "false"
-        INSTALL_LIGER_KERNEL: "false"
-        INSTALL_HQQ: "false"
-        INSTALL_EETQ: "false"
+        INSTALL_BNB: false
+        INSTALL_VLLM: false
+        INSTALL_DEEPSPEED: false
+        INSTALL_FLASHATTN: false
+        INSTALL_LIGER_KERNEL: false
+        INSTALL_HQQ: false
+        INSTALL_EETQ: false
         PIP_INDEX: https://pypi.org/simple
     container_name: llamafactory
     volumes:
@@ -19,14 +19,17 @@ services:
       - ../../om_cache:/root/.cache/openmind
       - ../../data:/app/data
       - ../../output:/app/output
+      - /DATA/LLM/gaojiale/llm_project/llama_factory/model/:/app/model
+      - /DATA/LLM/gaojiale/llm_project/llama_factory/LLaMA-Factory/examples:/app/examples
+      - /DATA/LLM/gaojiale/llm_project/llama_factory/LLaMA-Factory/docker/docker-cuda/start_llamafactory.sh:/app/start_llamafactory.sh
     ports:
       - "7860:7860"
       - "8000:8000"
     ipc: host
     tty: true
-    shm_size: "16gb"
+    shm_size: '16gb'
     stdin_open: true
-    command: bash
+    command: ['/bin/bash', '/app/start_llamafactory.sh']  #在启动容器时执行脚本,注意路径
     deploy:
       resources:
         reservations:
