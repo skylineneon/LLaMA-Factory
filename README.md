@@ -5,46 +5,38 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/hiyouga/LLaMA-Factory?color=orange)](https://github.com/hiyouga/LLaMA-Factory/graphs/contributors)
 [![GitHub workflow](https://github.com/hiyouga/LLaMA-Factory/actions/workflows/tests.yml/badge.svg)](https://github.com/hiyouga/LLaMA-Factory/actions/workflows/tests.yml)
 [![PyPI](https://img.shields.io/pypi/v/llamafactory)](https://pypi.org/project/llamafactory/)
-[![Citation](https://img.shields.io/badge/citation-447-green)](https://scholar.google.com/scholar?cites=12620864006390196564)
-[![GitHub pull request](https://img.shields.io/badge/PRs-welcome-blue)](https://github.com/hiyouga/LLaMA-Factory/pulls)
+[![Citation](https://img.shields.io/badge/citation-840-green)](https://scholar.google.com/scholar?cites=12620864006390196564)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hiyouga/llamafactory)](https://hub.docker.com/r/hiyouga/llamafactory/tags)
 
 [![Twitter](https://img.shields.io/twitter/follow/llamafactory_ai)](https://twitter.com/llamafactory_ai)
-[![Discord](https://dcbadge.vercel.app/api/server/rKfvV9r9FK?compact=true&style=flat)](https://discord.gg/rKfvV9r9FK)
-[![GitCode](https://gitcode.com/zhengyaowei/LLaMA-Factory/star/badge.svg)](https://gitcode.com/zhengyaowei/LLaMA-Factory)
+[![Discord](assets/thirdparty/discord.svg)](https://discord.gg/rKfvV9r9FK)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eRTPn37ltBbYsISy9Aw2NuI2Aq5CQrD9?usp=sharing)
-[![Open in DSW](https://gallery.pai-ml.com/assets/open-in-dsw.svg)](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory)
-[![Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/hiyouga/LLaMA-Board)
-[![Studios](https://img.shields.io/badge/ModelScope-Open%20in%20Studios-blue)](https://modelscope.cn/studios/hiyouga/LLaMA-Board)
-[![SageMaker](https://img.shields.io/badge/SageMaker-Open%20in%20AWS-blue)](https://aws.amazon.com/cn/blogs/china/a-one-stop-code-free-model-fine-tuning-deployment-platform-based-on-sagemaker-and-llama-factory/)
+[![Open in Colab](assets/thirdparty/colab.svg)](https://colab.research.google.com/drive/1eRTPn37ltBbYsISy9Aw2NuI2Aq5CQrD9?usp=sharing)
+[![Open in DSW](assets/thirdparty/dsw.svg)](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory)
+[![Open in Lab4ai](assets/thirdparty/lab4ai.svg)](https://www.lab4ai.cn/course/detail?id=7c13e60f6137474eb40f6fd3983c0f46&utm_source=LLaMA-Factory)
+[![Open in Online](assets/thirdparty/online.svg)](https://www.llamafactory.com.cn/?utm_source=LLaMA-Factory)
+[![Open in Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/hiyouga/LLaMA-Board)
+[![Open in Studios](https://img.shields.io/badge/ModelScope-Open%20in%20Studios-blue)](https://modelscope.cn/studios/hiyouga/LLaMA-Board)
+[![Open in Novita](https://img.shields.io/badge/Novita-Deploy%20Template-blue)](https://novita.ai/templates-library/105981?sharer=88115474-394e-4bda-968e-b88e123d0c47)
+
+### Used by [Amazon](https://aws.amazon.com/cn/blogs/machine-learning/how-apoidea-group-enhances-visual-information-extraction-from-banking-documents-with-multimodal-models-using-llama-factory-on-amazon-sagemaker-hyperpod/), [NVIDIA](https://developer.nvidia.com/rtx/ai-toolkit), [Aliyun](https://help.aliyun.com/zh/pai/use-cases/fine-tune-a-llama-3-model-with-llama-factory), etc.
 
 <div align="center" markdown="1">
 
 ### Supporters ❤️
 
-<a href="https://warp.dev/llama-factory">
-    <img alt="Warp sponsorship" width="400" src="https://github.com/user-attachments/assets/ab8dd143-b0fd-4904-bdc5-dd7ecac94eae">
-</a>
-
-#### [Warp, the agentic terminal for developers](https://warp.dev/llama-factory)
-
-[Available for MacOS, Linux, & Windows](https://warp.dev/llama-factory)
-
-</div>
+| <div style="text-align: center;"><a href="https://warp.dev/llama-factory"><img alt="Warp sponsorship" width="400" src="assets/sponsors/warp.jpg"></a><br><a href="https://warp.dev/llama-factory" style="font-size:larger;">Warp, the agentic terminal for developers</a><br><a href="https://warp.dev/llama-factory">Available for MacOS, Linux, & Windows</a> | <a href="https://serpapi.com"><img alt="SerpAPI sponsorship" width="250" src="assets/sponsors/serpapi.svg"> </a> |
+| ---- | ---- |
 
 ----
 
-<h3 align="center">
-    Easily fine-tune 100+ large language models with zero-code <a href="#quickstart">CLI</a> and <a href="#fine-tuning-with-llama-board-gui-powered-by-gradio">Web UI</a>
-</h3>
+### Easily fine-tune 100+ large language models with zero-code [CLI](#quickstart) and [Web UI](#fine-tuning-with-llama-board-gui-powered-by-gradio)
 
-<p align="center">
-    <picture>
-        <img alt="Github trend" src="https://trendshift.io/api/badge/repositories/4535">
-    </picture>
-</p>
+![GitHub Trend](https://trendshift.io/api/badge/repositories/4535)
 
-👋 Join our [WeChat](assets/wechat.jpg) or [NPU user group](assets/wechat_npu.jpg).
+</div>
+
+👋 Join our [WeChat](assets/wechat/main.jpg), [NPU](assets/wechat/npu.jpg), [Lab4AI](assets/wechat/lab4ai.jpg), [LLaMA Factory Online](assets/wechat/online.jpg) user group.
 
 \[ English | [中文](README_zh.md) \]
 
@@ -54,12 +46,14 @@ https://github.com/user-attachments/assets/3991a3a8-4276-4d30-9cab-4cb0c4b9b99e
 
 Choose your path:
 
-- **Documentation**: https://llamafactory.readthedocs.io/en/latest/
+- **Documentation (WIP)**: https://llamafactory.readthedocs.io/en/latest/
+- **Documentation (AMD GPU)**: https://rocm.docs.amd.com/projects/ai-developer-hub/en/latest/notebooks/fine_tune/llama_factory_llama3.html
 - **Colab (free)**: https://colab.research.google.com/drive/1eRTPn37ltBbYsISy9Aw2NuI2Aq5CQrD9?usp=sharing
 - **Local machine**: Please refer to [usage](#getting-started)
-- **PAI-DSW (free trial)**: [Llama3 Example](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory) | [Qwen2-VL Example](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory_qwen2vl) | [DeepSeek-R1-Distill Example](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory_deepseek_r1_distill_7b)
-- **Amazon SageMaker**: [Blog](https://aws.amazon.com/cn/blogs/china/a-one-stop-code-free-model-fine-tuning-deployment-platform-based-on-sagemaker-and-llama-factory/)
-- **Easy Dataset**: [Fine-tune on Synthetic Data](https://buaa-act.feishu.cn/wiki/GVzlwYcRFiR8OLkHbL6cQpYin7g)
+- **PAI-DSW (free trial)**: https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory
+- **Alaya NeW (cloud GPU deal)**: https://docs.alayanew.com/docs/documents/useGuide/LLaMAFactory/mutiple/?utm_source=LLaMA-Factory
+- **Official Course**: https://www.lab4ai.cn/course/detail?id=7c13e60f6137474eb40f6fd3983c0f46&utm_source=LLaMA-Factory
+- **LLaMA Factory Online**: https://www.llamafactory.com.cn/?utm_source=LLaMA-Factory
 
 > [!NOTE]
 > Except for the above links, all other websites are unauthorized third-party websites. Please carefully use them.
@@ -67,7 +61,7 @@ Choose your path:
 ## Table of Contents
 
 - [Features](#features)
-- [Benchmark](#benchmark)
+- [Blogs](#blogs)
 - [Changelog](#changelog)
 - [Supported Models](#supported-models)
 - [Supported Training Approaches](#supported-training-approaches)
@@ -78,6 +72,7 @@ Choose your path:
   - [Data Preparation](#data-preparation)
   - [Quickstart](#quickstart)
   - [Fine-Tuning with LLaMA Board GUI](#fine-tuning-with-llama-board-gui-powered-by-gradio)
+  - [LLaMA Factory Online](#llama-factory-online)
   - [Build Docker](#build-docker)
   - [Deploy with OpenAI-style API and vLLM](#deploy-with-openai-style-api-and-vllm)
   - [Download from ModelScope Hub](#download-from-modelscope-hub)
@@ -94,7 +89,7 @@ Choose your path:
 - **Various models**: LLaMA, LLaVA, Mistral, Mixtral-MoE, Qwen, Qwen2-VL, DeepSeek, Yi, Gemma, ChatGLM, Phi, etc.
 - **Integrated methods**: (Continuous) pre-training, (multimodal) supervised fine-tuning, reward modeling, PPO, DPO, KTO, ORPO, etc.
 - **Scalable resources**: 16-bit full-tuning, freeze-tuning, LoRA and 2/3/4/5/6/8-bit QLoRA via AQLM/AWQ/GPTQ/LLM.int8/HQQ/EETQ.
-- **Advanced algorithms**: [GaLore](https://github.com/jiaweizzhao/GaLore), [BAdam](https://github.com/Ledzy/BAdam), [APOLLO](https://github.com/zhuhanqing/APOLLO), [Adam-mini](https://github.com/zyushun/Adam-mini), [Muon](https://github.com/KellerJordan/Muon), DoRA, LongLoRA, LLaMA Pro, Mixture-of-Depths, LoRA+, LoftQ and PiSSA.
+- **Advanced algorithms**: [GaLore](https://github.com/jiaweizzhao/GaLore), [BAdam](https://github.com/Ledzy/BAdam), [APOLLO](https://github.com/zhuhanqing/APOLLO), [Adam-mini](https://github.com/zyushun/Adam-mini), [Muon](https://github.com/KellerJordan/Muon), [OFT](https://github.com/huggingface/peft/tree/main/src/peft/tuners/oft), DoRA, LongLoRA, LLaMA Pro, Mixture-of-Depths, LoRA+, LoftQ and PiSSA.
 - **Practical tricks**: [FlashAttention-2](https://github.com/Dao-AILab/flash-attention), [Unsloth](https://github.com/unslothai/unsloth), [Liger Kernel](https://github.com/linkedin/Liger-Kernel), RoPE scaling, NEFTune and rsLoRA.
 - **Wide tasks**: Multi-turn dialogue, tool using, image understanding, visual grounding, video recognition, audio understanding, etc.
 - **Experiment monitors**: LlamaBoard, TensorBoard, Wandb, MLflow, [SwanLab](https://github.com/SwanHubX/SwanLab), etc.
@@ -102,27 +97,41 @@ Choose your path:
 
 ### Day-N Support for Fine-Tuning Cutting-Edge Models
 
-| Support Date | Model Name                                                   |
-| ------------ | ------------------------------------------------------------ |
-| Day 0        | Qwen3 / Qwen2.5-VL / Gemma 3 / InternLM 3 / MiniCPM-o-2.6    |
-| Day 1        | Llama 3 / GLM-4 / Mistral Small / PaliGemma2 / Llama 4       |
+| Support Date | Model Name                                                           |
+| ------------ | -------------------------------------------------------------------- |
+| Day 0        | Qwen3 / Qwen2.5-VL / Gemma 3 / GLM-4.1V / InternLM 3 / MiniCPM-o-2.6 |
+| Day 1        | Llama 3 / GLM-4 / Mistral Small / PaliGemma2 / Llama 4               |
 
-## Benchmark
+## Blogs
 
-Compared to ChatGLM's [P-Tuning](https://github.com/THUDM/ChatGLM2-6B/tree/main/ptuning), LLaMA Factory's LoRA tuning offers up to **3.7 times faster** training speed with a better Rouge score on the advertising text generation task. By leveraging 4-bit quantization technique, LLaMA Factory's QLoRA further improves the efficiency regarding the GPU memory.
+- 💡 [Easy Dataset × LLaMA Factory: Enabling LLMs to Efficiently Learn Domain Knowledge](https://buaa-act.feishu.cn/wiki/GVzlwYcRFiR8OLkHbL6cQpYin7g) (English)
+- [Fine-tune a mental health LLM using LLaMA-Factory](https://www.lab4ai.cn/project/detail?id=25cce32ec131497b9e06a93336a0817f&type=project&utm_source=LLaMA-Factory) (Chinese)
+- [Fine-tune GPT-OSS for Role-Playing using LLaMA-Factory](https://docs.llamafactory.com.cn/docs/documents/best-practice/gptroleplay/?utm_source=LLaMA-Factory) (Chinese)
+- [A One-Stop Code-Free Model Reinforcement Learning and Deployment Platform based on LLaMA-Factory and EasyR1](https://aws.amazon.com/cn/blogs/china/building-llm-model-hub-based-on-llamafactory-and-easyr1/) (Chinese)
+- [How Apoidea Group enhances visual information extraction from banking documents with multimodal models using LLaMA-Factory on Amazon SageMaker HyperPod](https://aws.amazon.com/cn/blogs/machine-learning/how-apoidea-group-enhances-visual-information-extraction-from-banking-documents-with-multimodal-models-using-llama-factory-on-amazon-sagemaker-hyperpod/) (English)
 
-![benchmark](assets/benchmark.svg)
+<details><summary>All Blogs</summary>
 
-<details><summary>Definitions</summary>
-
-- **Training Speed**: the number of training samples processed per second during the training. (bs=4, cutoff_len=1024)
-- **Rouge Score**: Rouge-2 score on the development set of the [advertising text generation](https://aclanthology.org/D19-1321.pdf) task. (bs=4, cutoff_len=1024)
-- **GPU Memory**: Peak GPU memory usage in 4-bit quantized training. (bs=1, cutoff_len=1024)
-- We adopt `pre_seq_len=128` for ChatGLM's P-Tuning and `lora_rank=32` for LLaMA Factory's LoRA tuning.
+- [Fine-tune Llama3.1-70B for Medical Diagnosis using LLaMA-Factory](https://docs.alayanew.com/docs/documents/bestPractice/bigModel/llama70B/?utm_source=LLaMA-Factory) (Chinese)
+- [Fine-tune Qwen2.5-VL for Autonomous Driving using LLaMA-Factory](https://docs.alayanew.com/docs/documents/useGuide/LLaMAFactory/mutiple/?utm_source=LLaMA-Factory) (Chinese)
+- [LLaMA Factory: Fine-tuning the DeepSeek-R1-Distill-Qwen-7B Model for News Classifier](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory_deepseek_r1_distill_7b) (Chinese)
+- [A One-Stop Code-Free Model Fine-Tuning \& Deployment Platform based on SageMaker and LLaMA-Factory](https://aws.amazon.com/cn/blogs/china/a-one-stop-code-free-model-fine-tuning-deployment-platform-based-on-sagemaker-and-llama-factory/) (Chinese)
+- [LLaMA Factory Multi-Modal Fine-Tuning Practice: Fine-Tuning Qwen2-VL for Personal Tourist Guide](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory_qwen2vl) (Chinese)
+- [LLaMA Factory: Fine-tuning Llama3 for Role-Playing](https://gallery.pai-ml.com/#/preview/deepLearning/nlp/llama_factory) (Chinese)
 
 </details>
 
 ## Changelog
+
+[25/08/22] We supported **[OFT](https://arxiv.org/abs/2306.07280)** and **[OFTv2](https://arxiv.org/abs/2506.19847)**. See [examples](examples/README.md) for usage.
+
+[25/08/20] We supported fine-tuning the **[Intern-S1-mini](https://huggingface.co/internlm/Intern-S1-mini)** models. See [PR #8976](https://github.com/hiyouga/LLaMA-Factory/pull/8976) to get started.
+
+[25/08/06] We supported fine-tuning the **[GPT-OSS](https://github.com/openai/gpt-oss)** models. See [PR #8826](https://github.com/hiyouga/LLaMA-Factory/pull/8826) to get started.
+
+<details><summary>Full Changelog</summary>
+
+[25/07/02] We supported fine-tuning the **[GLM-4.1V-9B-Thinking](https://github.com/THUDM/GLM-4.1V-Thinking)** model.
 
 [25/04/28] We supported fine-tuning the **[Qwen3](https://qwenlm.github.io/blog/qwen3/)** model family.
 
@@ -133,8 +142,6 @@ Compared to ChatGLM's [P-Tuning](https://github.com/THUDM/ChatGLM2-6B/tree/main/
 [25/04/14] We supported fine-tuning the **[GLM-Z1](https://huggingface.co/THUDM/GLM-Z1-9B-0414)** and **[Kimi-VL](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct)** models.
 
 [25/04/06] We supported fine-tuning the **[Llama 4](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)** model. See [PR #7611](https://github.com/hiyouga/LLaMA-Factory/pull/7611) to get started.
-
-<details><summary>Full Changelog</summary>
 
 [25/03/31] We supported fine-tuning the **[Qwen2.5 Omni](https://qwenlm.github.io/blog/qwen2.5-omni/)** model. See [PR #7537](https://github.com/hiyouga/LLaMA-Factory/pull/7537) to get started.
 
@@ -250,7 +257,7 @@ Compared to ChatGLM's [P-Tuning](https://github.com/THUDM/ChatGLM2-6B/tree/main/
 
 </details>
 
-> [!NOTE]
+> [!TIP]
 > If you cannot use the latest feature, please pull the latest code and install LLaMA-Factory again.
 
 ## Supported Models
@@ -264,16 +271,23 @@ Compared to ChatGLM's [P-Tuning](https://github.com/THUDM/ChatGLM2-6B/tree/main/
 | [DeepSeek (Code/MoE)](https://huggingface.co/deepseek-ai)         | 7B/16B/67B/236B                  | deepseek            |
 | [DeepSeek 2.5/3](https://huggingface.co/deepseek-ai)              | 236B/671B                        | deepseek3           |
 | [DeepSeek R1 (Distill)](https://huggingface.co/deepseek-ai)       | 1.5B/7B/8B/14B/32B/70B/671B      | deepseekr1          |
+| [ERNIE-4.5](https://huggingface.co/baidu)                         | 0.3B/21B/300B                    | ernie_nothink/ernie |
 | [Falcon](https://huggingface.co/tiiuae)                           | 7B/11B/40B/180B                  | falcon              |
-| [Gemma/Gemma 2/CodeGemma](https://huggingface.co/google)          | 2B/7B/9B/27B                     | gemma               |
-| [Gemma 3](https://huggingface.co/google)                          | 1B/4B/12B/27B                    | gemma3/gemma (1B)   |
-| [GLM-4/GLM-4-0414/GLM-Z1](https://huggingface.co/THUDM)           | 9B/32B                           | glm4/glmz1          |
+| [Falcon-H1](https://huggingface.co/tiiuae)                        | 0.5B/1.5B/3B/7B/34B              | falcon_h1           |
+| [Gemma/Gemma 2/CodeGemma](https://huggingface.co/google)          | 2B/7B/9B/27B                     | gemma/gemma2        |
+| [Gemma 3/Gemma 3n](https://huggingface.co/google)                 | 270M/1B/4B/6B/8B/12B/27B         | gemma3/gemma3n      |
+| [GLM-4/GLM-4-0414/GLM-Z1](https://huggingface.co/zai-org)         | 9B/32B                           | glm4/glmz1          |
+| [GLM-4.1V](https://huggingface.co/zai-org)                        | 9B                               | glm4v               |
+| [GLM-4.5/GLM-4.5V](https://huggingface.co/zai-org)                | 106B/355B                        | glm4_moe/glm4v_moe  |
 | [GPT-2](https://huggingface.co/openai-community)                  | 0.1B/0.4B/0.8B/1.5B              | -                   |
+| [GPT-OSS](https://huggingface.co/openai)                          | 20B/120B                         | gpt                 |
 | [Granite 3.0-3.3](https://huggingface.co/ibm-granite)             | 1B/2B/3B/8B                      | granite3            |
+| [Granite 4](https://huggingface.co/ibm-granite)                   | 7B                               | granite4            |
 | [Hunyuan](https://huggingface.co/tencent/)                        | 7B                               | hunyuan             |
 | [Index](https://huggingface.co/IndexTeam)                         | 1.9B                             | index               |
 | [InternLM 2-3](https://huggingface.co/internlm)                   | 7B/8B/20B                        | intern2             |
-| [InternVL 2.5-3](https://huggingface.co/OpenGVLab)\*              | 1B/2B/8B/14B/38B/78B             | intern_vl           |
+| [InternVL 2.5-3.5](https://huggingface.co/OpenGVLab)              | 1B/2B/4B/8B/14B/30B/38B/78B/241B | intern_vl           |
+| [InternLM/Intern-S1-mini](https://huggingface.co/internlm/)       | 8B                               | intern_s1           |
 | [Kimi-VL](https://huggingface.co/moonshotai)                      | 16B                              | kimi_vl             |
 | [Llama](https://github.com/facebookresearch/llama)                | 7B/13B/33B/65B                   | -                   |
 | [Llama 2](https://huggingface.co/meta-llama)                      | 7B/13B/70B                       | llama2              |
@@ -283,7 +297,8 @@ Compared to ChatGLM's [P-Tuning](https://github.com/THUDM/ChatGLM2-6B/tree/main/
 | [LLaVA-1.5](https://huggingface.co/llava-hf)                      | 7B/13B                           | llava               |
 | [LLaVA-NeXT](https://huggingface.co/llava-hf)                     | 7B/8B/13B/34B/72B/110B           | llava_next          |
 | [LLaVA-NeXT-Video](https://huggingface.co/llava-hf)               | 7B/34B                           | llava_next_video    |
-| [MiniCPM](https://huggingface.co/openbmb)                         | 1B/2B/4B                         | cpm/cpm3            |
+| [MiMo](https://huggingface.co/XiaomiMiMo)                         | 7B                               | mimo                |
+| [MiniCPM 1-4.1](https://huggingface.co/openbmb)                   | 0.5B/1B/2B/4B/8B                 | cpm/cpm3/cpm4       |
 | [MiniCPM-o-2.6/MiniCPM-V-2.6](https://huggingface.co/openbmb)     | 8B                               | minicpm_o/minicpm_v |
 | [Ministral/Mistral-Nemo](https://huggingface.co/mistralai)        | 8B/12B                           | ministral           |
 | [Mistral/Mixtral](https://huggingface.co/mistralai)               | 7B/8x7B/8x22B                    | mistral             |
@@ -296,10 +311,11 @@ Compared to ChatGLM's [P-Tuning](https://github.com/THUDM/ChatGLM2-6B/tree/main/
 | [Phi-4](https://huggingface.co/microsoft)                         | 14B                              | phi4                |
 | [Pixtral](https://huggingface.co/mistralai)                       | 12B                              | pixtral             |
 | [Qwen (1-2.5) (Code/Math/MoE/QwQ)](https://huggingface.co/Qwen)   | 0.5B/1.5B/3B/7B/14B/32B/72B/110B | qwen                |
-| [Qwen3 (MoE)](https://huggingface.co/Qwen)                        | 0.6B/1.7B/4B/8B/14B/32B/235B     | qwen3               |
+| [Qwen3 (MoE/Instruct/Thinking/Next)](https://huggingface.co/Qwen) | 0.6B/1.7B/4B/8B/14B/32B/80B/235B | qwen3/qwen3_nothink |
 | [Qwen2-Audio](https://huggingface.co/Qwen)                        | 7B                               | qwen2_audio         |
-| [Qwen2.5-Omni](https://huggingface.co/Qwen)\*\*                   | 3B/7B                            | qwen2_omni          |
+| [Qwen2.5-Omni](https://huggingface.co/Qwen)                       | 3B/7B                            | qwen2_omni          |
 | [Qwen2-VL/Qwen2.5-VL/QVQ](https://huggingface.co/Qwen)            | 2B/3B/7B/32B/72B                 | qwen2_vl            |
+| [Seed (OSS/Coder)](https://huggingface.co/ByteDance-Seed)         | 8B/36B                           | seed_oss/seed_coder |
 | [Skywork o1](https://huggingface.co/Skywork)                      | 8B                               | skywork_o1          |
 | [StarCoder 2](https://huggingface.co/bigcode)                     | 3B/7B/15B                        | -                   |
 | [TeleChat2](https://huggingface.co/Tele-AI)                       | 3B/7B/35B/115B                   | telechat2           |
@@ -307,6 +323,7 @@ Compared to ChatGLM's [P-Tuning](https://github.com/THUDM/ChatGLM2-6B/tree/main/
 | [Yi/Yi-1.5 (Code)](https://huggingface.co/01-ai)                  | 1.5B/6B/9B/34B                   | yi                  |
 | [Yi-VL](https://huggingface.co/01-ai)                             | 6B/34B                           | yi_vl               |
 | [Yuan 2](https://huggingface.co/IEITYuan)                         | 2B/51B/102B                      | yuan                |
+| [LING-V2 (mini/flash)](https://huggingface.co/inclusionAI)        | 16B/100B                         | bailing_v2          |
 
 > [!NOTE]
 > For the "base" models, the `template` argument can be chosen from `default`, `alpaca`, `vicuna` etc. But make sure to use the **corresponding template** for the "instruct/chat" models.
@@ -323,16 +340,16 @@ You also can add a custom chat template to [template.py](src/llamafactory/data/t
 
 ## Supported Training Approaches
 
-| Approach               |     Full-tuning    |    Freeze-tuning   |       LoRA         |       QLoRA        |
-| ---------------------- | ------------------ | ------------------ | ------------------ | ------------------ |
-| Pre-Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Supervised Fine-Tuning | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Reward Modeling        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| PPO Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| DPO Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| KTO Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| ORPO Training          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| SimPO Training         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Approach               |     Full-tuning    |    Freeze-tuning   |       LoRA         |       QLoRA        |        OFT         |        QOFT        |
+| ---------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
+| Pre-Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Supervised Fine-Tuning | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Reward Modeling        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| PPO Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| DPO Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| KTO Training           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| ORPO Training          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| SimPO Training         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 > [!TIP]
 > The implementation details of PPO can be found in [this blog](https://newfacade.github.io/notes-on-reinforcement-learning/17-ppo-trl.html).
@@ -350,6 +367,11 @@ You also can add a custom chat template to [template.py](src/llamafactory/data/t
 - [SkyPile (zh)](https://huggingface.co/datasets/Skywork/SkyPile-150B)
 - [FineWeb (en)](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 - [FineWeb-Edu (en)](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu)
+- [CCI3-HQ (zh)](https://huggingface.co/datasets/BAAI/CCI3-HQ)
+- [CCI3-Data (zh)](https://huggingface.co/datasets/BAAI/CCI3-Data)
+- [CCI4.0-M2-Base-v1 (en&zh)](https://huggingface.co/datasets/BAAI/CCI4.0-M2-Base-v1)
+- [CCI4.0-M2-CoT-v1 (en&zh)](https://huggingface.co/datasets/BAAI/CCI4.0-M2-CoT-v1)
+- [CCI4.0-M2-Extra-v1 (en&zh)](https://huggingface.co/datasets/BAAI/CCI4.0-M2-Extra-v1)
 - [The Stack (en)](https://huggingface.co/datasets/bigcode/the-stack)
 - [StarCoder (en)](https://huggingface.co/datasets/bigcode/starcoderdata)
 
@@ -387,6 +409,7 @@ You also can add a custom chat template to [template.py](src/llamafactory/data/t
 - [ShareGPT Hyperfiltered (en)](https://huggingface.co/datasets/totally-not-an-llm/sharegpt-hyperfiltered-3k)
 - [ShareGPT4 (en&zh)](https://huggingface.co/datasets/shibing624/sharegpt_gpt4)
 - [UltraChat 200k (en)](https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k)
+- [Infinity Instruct (zh)](https://huggingface.co/datasets/BAAI/Infinity-Instruct)
 - [AgentInstruct (en)](https://huggingface.co/datasets/THUDM/AgentInstruct)
 - [LMSYS Chat 1M (en)](https://huggingface.co/datasets/lmsys/lmsys-chat-1m)
 - [Evol Instruct V2 (en)](https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k)
@@ -419,9 +442,10 @@ You also can add a custom chat template to [template.py](src/llamafactory/data/t
 
 - [DPO mixed (en&zh)](https://huggingface.co/datasets/hiyouga/DPO-En-Zh-20k)
 - [UltraFeedback (en)](https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized)
-- [COIG-P (en&zh)](https://huggingface.co/datasets/m-a-p/COIG-P)
+- [COIG-P (zh)](https://huggingface.co/datasets/m-a-p/COIG-P)
 - [RLHF-V (en)](https://huggingface.co/datasets/openbmb/RLHF-V-Dataset)
 - [VLFeedback (en)](https://huggingface.co/datasets/Zhihui/VLFeedback)
+- [RLAIF-V (en)](https://huggingface.co/datasets/openbmb/RLAIF-V-Dataset)
 - [Orca DPO Pairs (en)](https://huggingface.co/datasets/Intel/orca_dpo_pairs)
 - [HH-RLHF (en)](https://huggingface.co/datasets/Anthropic/hh-rlhf)
 - [Nectar (en)](https://huggingface.co/datasets/berkeley-nest/Nectar)
@@ -443,7 +467,8 @@ huggingface-cli login
 | ------------ | ------- | --------- |
 | python       | 3.9     | 3.10      |
 | torch        | 2.0.0   | 2.6.0     |
-| transformers | 4.45.0  | 4.50.0    |
+| torchvision  | 0.15.0  | 0.21.0    |
+| transformers | 4.49.0  | 4.50.0    |
 | datasets     | 2.16.0  | 3.2.0     |
 | accelerate   | 0.34.0  | 1.2.1     |
 | peft         | 0.14.0  | 0.15.1    |
@@ -461,14 +486,14 @@ huggingface-cli login
 
 \* *estimated*
 
-| Method                          | Bits |   7B  |  14B  |  30B  |   70B  |   `x`B  |
-| ------------------------------- | ---- | ----- | ----- | ----- | ------ | ------- |
-| Full (`bf16` or `fp16`)         |  32  | 120GB | 240GB | 600GB | 1200GB | `18x`GB |
-| Full (`pure_bf16`)              |  16  |  60GB | 120GB | 300GB |  600GB |  `8x`GB |
-| Freeze/LoRA/GaLore/APOLLO/BAdam |  16  |  16GB |  32GB |  64GB |  160GB |  `2x`GB |
-| QLoRA                           |   8  |  10GB |  20GB |  40GB |   80GB |   `x`GB |
-| QLoRA                           |   4  |   6GB |  12GB |  24GB |   48GB | `x/2`GB |
-| QLoRA                           |   2  |   4GB |   8GB |  16GB |   24GB | `x/4`GB |
+| Method                              | Bits |   7B  |  14B  |  30B  |   70B  |   `x`B  |
+| ----------------------------------- | ---- | ----- | ----- | ----- | ------ | ------- |
+| Full (`bf16` or `fp16`)             |  32  | 120GB | 240GB | 600GB | 1200GB | `18x`GB |
+| Full (`pure_bf16`)                  |  16  |  60GB | 120GB | 300GB |  600GB |  `8x`GB |
+| Freeze/LoRA/GaLore/APOLLO/BAdam/OFT |  16  |  16GB |  32GB |  64GB |  160GB |  `2x`GB |
+| QLoRA / QOFT                        |   8  |  10GB |  20GB |  40GB |   80GB |   `x`GB |
+| QLoRA / QOFT                        |   4  |   6GB |  12GB |  24GB |   48GB | `x/2`GB |
+| QLoRA / QOFT                        |   2  |   4GB |   8GB |  16GB |   24GB | `x/4`GB |
 
 ## Getting Started
 
@@ -477,16 +502,27 @@ huggingface-cli login
 > [!IMPORTANT]
 > Installation is mandatory.
 
+#### Install from Source
+
 ```bash
 git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
-pip install -e ".[torch,metrics]"
+pip install -e ".[torch,metrics]" --no-build-isolation
 ```
 
-Extra dependencies available: torch, torch-npu, metrics, deepspeed, liger-kernel, bitsandbytes, hqq, eetq, gptq, aqlm, vllm, sglang, galore, apollo, badam, adam-mini, qwen, minicpm_v, modelscope, openmind, swanlab, quality
+Extra dependencies available: torch, torch-npu, metrics, deepspeed, liger-kernel, bitsandbytes, hqq, eetq, gptq, aqlm, vllm, sglang, galore, apollo, badam, adam-mini, qwen, minicpm_v, openmind, swanlab, dev
 
-> [!TIP]
-> Use `pip install --no-deps -e .` to resolve package conflicts.
+#### Install from Docker Image
+
+```bash
+docker run -it --rm --gpus=all --ipc=host hiyouga/llamafactory:latest
+```
+
+This image is built on Ubuntu 22.04 (x86\_64), CUDA 12.4, Python 3.11, PyTorch 2.6.0, and Flash-attn 2.7.4.
+
+Find the pre-built images: https://hub.docker.com/r/hiyouga/llamafactory/tags
+
+Please refer to [build docker](#build-docker) to build the image yourself.
 
 <details><summary>Setting up a virtual environment with <b>uv</b></summary>
 
@@ -505,6 +541,20 @@ uv run --prerelease=allow llamafactory-cli train examples/train_lora/llama3_lora
 </details>
 
 <details><summary>For Windows users</summary>
+
+#### Install PyTorch
+
+You need to manually install the GPU version of PyTorch on the Windows platform. Please refer to the [official website](https://pytorch.org/get-started/locally/) and the following command to install PyTorch with CUDA support:
+
+```bash
+pip uninstall torch torchvision torchaudio
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+python -c "import torch; print(torch.cuda.is_available())"
+```
+
+If you see `True` then you have successfully installed PyTorch with CUDA support.
+
+Try `dataloader_num_workers: 0` if you encounter `Can't pickle local object` error.
 
 #### Install BitsAndBytes
 
@@ -595,7 +645,7 @@ Please refer to [data/README.md](data/README.md) for checking the details about 
 > [!NOTE]
 > Please update `data/dataset_info.json` to use your custom dataset.
 
-You can also use **[Easy Dataset](https://github.com/ConardLi/easy-dataset)** to create synthetic data for fine-tuning.
+You can also use **[Easy Dataset](https://github.com/ConardLi/easy-dataset)**, **[DataFlow](https://github.com/OpenDCAI/DataFlow)** and **[GraphGen](https://github.com/open-sciencelab/GraphGen)** to create synthetic data for fine-tuning.
 
 ### Quickstart
 
@@ -619,6 +669,10 @@ See [examples/README.md](examples/README.md) for advanced usage (including distr
 ```bash
 llamafactory-cli webui
 ```
+
+### LLaMA Factory Online
+
+Read our [documentation](https://docs.llamafactory.com.cn/docs/documents/quickstart/getstarted/?utm_source=LLaMA-Factory).
 
 ### Build Docker
 
@@ -652,22 +706,13 @@ For CUDA users:
 
 ```bash
 docker build -f ./docker/docker-cuda/Dockerfile \
-    --build-arg INSTALL_BNB=false \
-    --build-arg INSTALL_VLLM=false \
-    --build-arg INSTALL_DEEPSPEED=false \
-    --build-arg INSTALL_FLASHATTN=false \
     --build-arg PIP_INDEX=https://pypi.org/simple \
+    --build-arg EXTRAS=metrics \
     -t llamafactory:latest .
 
-docker run -dit --gpus=all \
-    -v ./hf_cache:/root/.cache/huggingface \
-    -v ./ms_cache:/root/.cache/modelscope \
-    -v ./om_cache:/root/.cache/openmind \
-    -v ./data:/app/data \
-    -v ./output:/app/output \
+docker run -dit --ipc=host --gpus=all \
     -p 7860:7860 \
     -p 8000:8000 \
-    --shm-size 16G \
     --name llamafactory \
     llamafactory:latest
 
@@ -677,19 +722,12 @@ docker exec -it llamafactory bash
 For Ascend NPU users:
 
 ```bash
-# Choose docker image upon your environment
 docker build -f ./docker/docker-npu/Dockerfile \
-    --build-arg INSTALL_DEEPSPEED=false \
     --build-arg PIP_INDEX=https://pypi.org/simple \
+    --build-arg EXTRAS=torch-npu,metrics \
     -t llamafactory:latest .
 
-# Change `device` upon your resources
-docker run -dit \
-    -v ./hf_cache:/root/.cache/huggingface \
-    -v ./ms_cache:/root/.cache/modelscope \
-    -v ./om_cache:/root/.cache/openmind \
-    -v ./data:/app/data \
-    -v ./output:/app/output \
+docker run -dit --ipc=host \
     -v /usr/local/dcmi:/usr/local/dcmi \
     -v /usr/local/bin/npu-smi:/usr/local/bin/npu-smi \
     -v /usr/local/Ascend/driver:/usr/local/Ascend/driver \
@@ -700,7 +738,6 @@ docker run -dit \
     --device /dev/davinci_manager \
     --device /dev/devmm_svm \
     --device /dev/hisi_hdc \
-    --shm-size 16G \
     --name llamafactory \
     llamafactory:latest
 
@@ -711,25 +748,15 @@ For AMD ROCm users:
 
 ```bash
 docker build -f ./docker/docker-rocm/Dockerfile \
-    --build-arg INSTALL_BNB=false \
-    --build-arg INSTALL_VLLM=false \
-    --build-arg INSTALL_DEEPSPEED=false \
-    --build-arg INSTALL_FLASHATTN=false \
     --build-arg PIP_INDEX=https://pypi.org/simple \
+    --build-arg EXTRAS=metrics \
     -t llamafactory:latest .
 
-docker run -dit \
-    -v ./hf_cache:/root/.cache/huggingface \
-    -v ./ms_cache:/root/.cache/modelscope \
-    -v ./om_cache:/root/.cache/openmind \
-    -v ./data:/app/data \
-    -v ./output:/app/output \
-    -v ./saves:/app/saves \
+docker run -dit --ipc=host \
     -p 7860:7860 \
     -p 8000:8000 \
     --device /dev/kfd \
     --device /dev/dri \
-    --shm-size 16G \
     --name llamafactory \
     llamafactory:latest
 
@@ -738,12 +765,14 @@ docker exec -it llamafactory bash
 
 </details>
 
-<details><summary>Details about volume</summary>
+<details><summary>Use Docker volumes</summary>
 
-- `hf_cache`: Utilize Hugging Face cache on the host machine. Reassignable if a cache already exists in a different directory.
-- `ms_cache`: Similar to Hugging Face cache but for ModelScope users.
-- `om_cache`: Similar to Hugging Face cache but for Modelers users.
-- `data`: Place datasets on this dir of the host machine so that they can be selected on LLaMA Board GUI.
+You can uncomment `VOLUME [ "/root/.cache/huggingface", "/app/shared_data", "/app/output" ]` in the Dockerfile to use data volumes.
+
+When building the Docker image, use `-v ./hf_cache:/root/.cache/huggingface` argument to mount the local directory to the container. The following data volumes are available.
+
+- `hf_cache`: Utilize Hugging Face cache on the host machine.
+- `shared_data`: The directionary to store datasets on the host machine.
 - `output`: Set export dir to this location so that the merged result can be accessed directly on the host machine.
 
 </details>
@@ -893,6 +922,7 @@ If you have a project that should be incorporated, please contact via email or c
 1. Xia et al. Using Pre-trained Language Model for Accurate ESG Prediction. FinNLP 2024. [[paper]](https://aclanthology.org/2024.finnlp-2.1/)
 1. Liang et al. I-SHEEP: Self-Alignment of LLM from Scratch through an Iterative Self-Enhancement Paradigm. 2024. [[arxiv]](https://arxiv.org/abs/2408.08072)
 1. Bai et al. Aligning Large Language Model with Direct Multi-Preference Optimization for Recommendation. CIKM 2024. [[paper]](https://dl.acm.org/doi/10.1145/3627673.3679611)
+1. Zhang et al. CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling. ACL 2024. [[paper]](https://aclanthology.org/2024.findings-acl.830.pdf)
 1. **[StarWhisper](https://github.com/Yu-Yang-Li/StarWhisper)**: A large language model for Astronomy, based on ChatGLM2-6B and Qwen-14B.
 1. **[DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM)**: A large language model specialized in Chinese legal domain, based on Baichuan-13B, is capable of retrieving and reasoning on legal knowledge.
 1. **[Sunsimiao](https://github.com/X-D-Lab/Sunsimiao)**: A large language model specialized in Chinese medical domain, based on Baichuan-7B and ChatGLM-6B.
@@ -906,7 +936,8 @@ If you have a project that should be incorporated, please contact via email or c
 1. **[RAG-Retrieval](https://github.com/NLPJCL/RAG-Retrieval)**: A full pipeline for RAG retrieval model fine-tuning, inference, and distillation. [[blog]](https://zhuanlan.zhihu.com/p/987727357)
 1. **[360-LLaMA-Factory](https://github.com/Qihoo360/360-LLaMA-Factory)**: A modified library that supports long sequence SFT & DPO using ring attention.
 1. **[Sky-T1](https://novasky-ai.github.io/posts/sky-t1/)**: An o1-like model fine-tuned by NovaSky AI with very small cost.
-
+1. **[WeClone](https://github.com/xming521/WeClone)**: One-stop solution for creating your digital avatar from chat logs.
+1. **[EmoLLM](https://github.com/SmartFlowAI/EmoLLM)**: A project about large language models (LLMs) and mental health.
 </details>
 
 ## License
